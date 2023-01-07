@@ -40,7 +40,7 @@ public class Functions {
             JOptionPane.showMessageDialog(null,"erro ao remover"+erro); } }
     
     
-    public void update(Livro livro, int id) throws ClassNotFoundException {
+    public void update(Livro livro) throws ClassNotFoundException {
         connect = new ConnectionFactory().connectDB();
         try {
             String command = "UPDATE livro SET id=?, titulo=?, autor=?, copias=?, data_emissao=? WHERE id=?";
@@ -50,7 +50,7 @@ public class Functions {
             pstm.setString(3, livro.getAutor());
             pstm.setInt(4, livro.getCopias());
             pstm.setDate(5, (Date) livro.getData());
-            pstm.setInt(6, id);
+            pstm.setInt(6, livro.getId());
             pstm.execute(); }
         catch (SQLException erro) {
             JOptionPane.showMessageDialog(null,"erro ao editar"+erro); } }

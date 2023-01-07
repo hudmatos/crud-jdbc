@@ -43,7 +43,7 @@ public class Livro {
     }
 
     public Date getData() {
-        return data;
+        return this.data;
     }
 
     public void setData(Date data) {
@@ -51,6 +51,4 @@ public class Livro {
     }
 
    
-    
-    
 }

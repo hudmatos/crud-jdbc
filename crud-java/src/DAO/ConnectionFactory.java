@@ -14,7 +14,7 @@ public class ConnectionFactory {
             String url = "jdbc:mysql://localhost:3306/livraria?user=root&password=";
             conn = DriverManager.getConnection(url);}
         catch (SQLException erro) {
-            JOptionPane.showMessageDialog(null,"erro de conexão"+erro);
+            JOptionPane.showMessageDialog(null,"erro de conexão\n"+erro);
         }
         return conn;
     }
