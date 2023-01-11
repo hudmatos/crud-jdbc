@@ -1,16 +1,6 @@
-# crud-jdbc (java)
-## Sobre o Projeto
 <div style="display: flex">
-    <div>
-        <p>
-            É um projeto java que simula o armazenamentos de dados<br> de uma livraria que tem como objetivo realizar as  principais<br> transações entre a aplicação e o                 banco de dados utilizando a API JDBC.
-        </p>
-        <p>C - create (criar um novo registro)</p>
-        <p>R - read (exibir informações de um registro)</p>
-        <p>U - update (atualizar dados de um registro)</p>
-        <p>D - delete (excluir um registro)</p>
-    </div>
-
+    
+<img src="https://user-images.githubusercontent.com/114026410/211698043-3abff2c5-86ac-4c32-b699-6056e4ace78c.jpeg">    
 <img src="https://user-images.githubusercontent.com/114026410/211673822-079c33f8-3144-422c-815a-3ed3d3c46d67.gif">
 
 </div>
