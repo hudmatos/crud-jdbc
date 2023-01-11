@@ -3,7 +3,7 @@
 <div style="display: flex">
     <div>
         <p>
-            É um projeto java que simula o armazenamentos de dados de uma livraria que tem como objetivo realizar as  principais transações entre a aplicação e o banco de dados utilizando a API JDBC.
+            É um projeto java que simula o armazenamentos de dados de uma livraria e tem como objetivo realizar as  principais transações entre a aplicação e o banco de dados utilizando a API JDBC.
         </p>
         <p>C - create (criar um novo registro)</p>
         <p>R - read (exibir informações de um registro)</p>
