@@ -22,3 +22,9 @@
 - Linguagem SQL | SGBD: MySQL
 
 </div>
+<div>
+
+## Forma de execução
+
+
+</div>
