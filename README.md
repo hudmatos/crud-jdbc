@@ -3,7 +3,7 @@
 <div>
     <div>
         <p>
-            É um projeto java que simula o armazenamento de dados de uma livraria e tem como objetivo realizar as  principais transações entre a aplicação e o banco de             dados utilizando a API JDBC.
+            É um projeto java que simula o armazenamento de dados de uma livraria. Tem como objetivo realizar as  principais transações entre a aplicação e o banco de               dados utilizando a API JDBC.
         </p>
         <img align="right" src="https://user-images.githubusercontent.com/114026410/211673822-079c33f8-3144-422c-815a-3ed3d3c46d67.gif" style="width: 350px">
         <p>C - create (criar um novo registro)</p>
@@ -12,6 +12,13 @@
         <p>D - delete (excluir um registro)</p>
     </div>
 
+</div>
+<div>
 
+## Tecnologias usadas
+- Linguagem de programação Java
+- Biblioteca Swing
+- Driver de conexão MySQL
+- Linguagem SQL | SGBD: MySQL
 
 </div>
